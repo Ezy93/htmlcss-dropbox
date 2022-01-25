@@ -15,6 +15,13 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+main{
+    width: 70%;
+    background-color: violet;
+    height: 500px;
+    margin: 0 auto;
+}
+
 nav *{
     display: inline-block;
 }
