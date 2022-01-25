@@ -15,6 +15,44 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+nav *{
+    display: inline-block;
+}
+
+nav>*{
+    line-height: 80px;
+}
+
+nav ul li a{
+    color:black;
+    font-weight: 700;
+}
+
+nav ul li a,
+nav > a{
+    text-decoration: none;
+}
+
 .nav-container{
     height: 80px;
+    width: 100vw;
+}
+
+.btn-blue{
+    background-color: rgb(0, 97, 255) ;
+    color: white;
+
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+
+#nav-logo{
+    vertical-align: middle;
 }
