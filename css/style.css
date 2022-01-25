@@ -42,6 +42,38 @@ div.col-right{
     height: 542.4px;
     background-image: url(../img/jumbo.png);
     background-size: contain;
+    background-repeat: no-repeat;
+    transform: scale(0.9);
+}
+
+div.col-left{
+    width: 30%;
+    margin-top: 25px;
+}
+
+div.col-left div.btn-blue{
+    margin: 1em 0;
+}
+
+div.jumbotron h1{
+    font-size: 5em;
+}
+
+.txt-format{
+    font-weight: 600;
+}
+
+.fa-arrow-down{
+    font-size: 3em;
+    margin-top: 1em;
+}
+
+.padding{
+    padding: 144px 144px 0px;
+}
+
+.perc-larghezza-R{
+    width: 70% ;
 }
 
 .nav-container{
@@ -50,13 +82,13 @@ div.col-right{
     margin: 0 auto;
     min-width: 1100px;
 }
-
-.btn-blue{
+/* vedere piu tardi */
+/* .btn-blue{
     background-color: rgb(0, 97, 255) ;
     color: white;
     padding: .7em 1.3em;
 
-}
+} */
 
 .jumbotron{
     background-color: rgb(180, 208, 231) ;
@@ -76,6 +108,7 @@ div.col-right{
 
 #nav-logo{
     vertical-align: -5px;
+    margin-right: 30px;
 }
 
 #diff-l-height{
