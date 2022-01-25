@@ -37,6 +37,13 @@ nav.nav-container ul li{
     margin: 0 1em;
 }
 
+div.col-right{
+    width: 960px;
+    height: 542.4px;
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+}
+
 .nav-container{
     height: 80px;
     width: 98vw;
@@ -50,6 +57,13 @@ nav.nav-container ul li{
     padding: .7em 1.3em;
 
 }
+
+.jumbotron{
+    background-color: rgb(180, 208, 231) ;
+}
+
+
+
 
 .float-left{
     float: left;
@@ -66,4 +80,8 @@ nav.nav-container ul li{
 
 #diff-l-height{
     line-height: 1em;
+}
+
+#jumbo-img{
+    transform: scale(0.5);
 }
