@@ -14,3 +14,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+.nav-container{
+    height: 80px;
+}
