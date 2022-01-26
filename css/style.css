@@ -81,6 +81,18 @@ div.container-column ul{
     list-style-type: none;
 }
 
+.name-sub{
+    line-height: 1.8em;
+}
+
+.description-free{
+    margin: 2.2em 0;
+}
+
+.vertical-spacing{
+    margin: 1.3em 0;
+}
+
 .align-center{
     text-align: center;
     border-bottom: 1px solid rgb(231, 231, 232);
