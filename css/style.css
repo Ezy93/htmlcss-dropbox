@@ -72,6 +72,12 @@ section.container-S{
     
 }
 
+section.container-B{
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+}
+
 .txt-format{
     font-weight: 600;
 }
