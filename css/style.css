@@ -15,15 +15,9 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-main{
-    width: 70%;
-    background-color: violet;
-    height: 500px;
-    margin: 0 auto;
-}
 
 main h1{
-    padding: 1.5em 0;
+    padding: 1.5em 0;   
 }
 
 nav *{
@@ -70,6 +64,14 @@ div.jumbotron h1{
     font-size: 5em;
 }
 
+section.container-S{
+    width: 70%;
+    background-color: violet;
+    margin: 0 auto;
+    height: 800px;
+    
+}
+
 .txt-format{
     font-weight: 600;
 }
@@ -104,9 +106,6 @@ div.jumbotron h1{
 .jumbotron{
     background-color: rgb(180, 208, 231) ;
 }
-
-
-
 
 .float-left{
     float: left;
