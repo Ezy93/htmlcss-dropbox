@@ -73,6 +73,20 @@ section.container-S{
     
 }
 
+section.container-S > h1{
+    font-size: 2.8em ;
+}
+
+section.container-S form{
+    margin-bottom: 2em ;
+}
+
+section.container-B{
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+}
+
 div.container-column{
     width: calc(100% / 3);
     border: 1px solid rgb(231, 231, 232);
@@ -82,6 +96,90 @@ div.container-column{
 div.container-column ul{
     list-style-type: none;
 }
+/* classi da usare con before per posizionare i vari font awesome */
+.user-white,
+.user-black,
+.pencil,
+.smile,
+.folder{
+    position: relative;
+}
+
+.user-white:before {
+    content: "\f007";
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*personalizzare come necessario*/
+    color: #000;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.user-black:before {
+    content: "\f234";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*personalizzare come necessario*/
+    color: #000;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.pencil:before {
+    content: "\f303";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*personalizzare come necessario*/
+    color: #000;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.smile:before {
+    content: "\f118";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*personalizzare come necessario*/
+    color: #000;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.folder:before {
+    content: "\f07b";
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*personalizzare come necessario*/
+    color: #000;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
 
 .block-center{
     padding: 1.9em;
@@ -106,11 +204,6 @@ div.container-column ul{
     padding: 1em;
 }
 
-section.container-B{
-    width: 100%;
-    height: 500px;
-    background-color: blue;
-}
 
 .txt-format{
     font-weight: 600;
@@ -123,6 +216,10 @@ section.container-B{
 
 .padding{
     padding: 144px 144px 0px;
+}
+
+.top-spacing{
+    padding-top: 2em;
 }
 
 .perc-larghezza-R{
