@@ -34,7 +34,8 @@ nav ul li a{
 }
 
 nav ul li a,
-nav > a{
+nav > a,
+div.btn-blue a{
     text-decoration: none;
 }
 
@@ -68,34 +69,41 @@ section.container-S{
     width: 70%;
     background-color: violet;
     margin: 0 auto;
-    height: 800px;
+    height: 2000px;
     
 }
 
 div.container-column{
     width: calc(100% / 3);
     border: 1px solid rgb(231, 231, 232);
+    padding-bottom: 250px;/* temporaneo */
 }
 
 div.container-column ul{
     list-style-type: none;
 }
 
-.name-sub{
-    line-height: 1.8em;
+.block-center{
+    padding: 1.9em;
 }
 
-.description-free{
-    margin: 2.2em 0;
+.name-sub{
+    line-height: 1.8em;
 }
 
 .vertical-spacing{
     margin: 1.3em 0;
 }
 
+
+.line-height{
+    line-height: 4em;
+}
+
 .align-center{
     text-align: center;
     border-bottom: 1px solid rgb(231, 231, 232);
+    padding: 1em;
 }
 
 section.container-B{
