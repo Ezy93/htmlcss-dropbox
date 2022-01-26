@@ -72,7 +72,6 @@ div.jumbotron h1{
 
 section.container-S{
     width: 70%;
-    background-color: violet;
     margin: 0 auto;
     height: 2000px;
     
@@ -93,9 +92,13 @@ section.container-B{
 }
 
 div.container-column{
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 2.5em);
     border: 1px solid rgb(166, 166, 168);
     padding-bottom: 250px;/* temporaneo */
+}
+
+.gutter-mid{
+    margin: 0em 3.5em;
 }
 
 div.container-column ul{
@@ -141,6 +144,10 @@ div.name-sub *{
 
 .txt-format{
     font-weight: 600;
+}
+
+.size{
+    font-size: .9em;
 }
 
 .fa-arrow-down{
@@ -205,4 +212,8 @@ div.name-sub *{
 
 #jumbo-img{
     transform: scale(0.5);
+}
+
+#annuale{
+    margin-left: 2em;
 }
