@@ -34,13 +34,13 @@ nav ul li a{
 
 .weight,
 nav ul li a{
-    font-weight: 700;
+    font-weight: 500;
 }
 
 
 nav ul li a,
 nav > a,
-div a.btn-blue{
+div a.btn{
     text-decoration: none;
 }
 
@@ -67,7 +67,7 @@ div.col-left div.btn-blue{
 }
 
 div.jumbotron h1{
-    font-size: 5em;
+    font-size: 4em;
 }
 
 section.container-S{
@@ -147,7 +147,7 @@ div.name-sub *{
 }
 
 .size{
-    font-size: .9em;
+    font-size: .8em;
 }
 
 .fa-arrow-down{
@@ -160,7 +160,7 @@ div.name-sub *{
 }
 
 .top-spacing{
-    padding-top: 2em;
+    padding-top: 8em;
 }
 
 .perc-larghezza-R{
@@ -190,6 +190,7 @@ div.name-sub *{
 
 .jumbotron{
     background-color: rgb(180, 208, 231) ;
+    height: 763px;
 }
 
 .float-left{
