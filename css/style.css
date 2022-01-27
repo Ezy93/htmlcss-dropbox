@@ -29,7 +29,8 @@ nav>*{
 }
 
 nav ul li a,
-#btn-white{
+#btn-white,
+.no-deco{
     color:black;
 }
 
@@ -159,7 +160,7 @@ div.container-column ul{
 div.container-column ul,
 div.container-column ul li,
 .top{
-    margin-top: 2em; /* !!!!!!!!!!!!!!!!!! */
+    margin-top: 2em; 
 }
 
 div.container-column li:before{
@@ -168,7 +169,7 @@ div.container-column li:before{
 }
 
 .crd-bottom{
-    margin-top:  3em; /* !!!!!!!!!!!!!!!!!!!!! */
+    margin-top:  3em; 
 }
 
 div.block-center h6{
@@ -181,7 +182,7 @@ div.block-center h6{
 
 div.name-sub *,
 .fa-arrow-down{
-    margin-top: 1em /* !!!!!!!!!!!!!!!!!!!!!!!!! */
+    margin-top: 1em 
 }
 
 .vertical-spacing{
