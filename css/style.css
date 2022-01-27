@@ -62,6 +62,10 @@ div.col-left{
     margin-top: 25px;
 }
 
+.width-M{
+    width: 70%;
+}
+
 div.col-left div.btn-blue{
     margin: 1em 0;
 }
@@ -71,7 +75,6 @@ div.jumbotron h1{
 }
 
 section.container-S{
-    width: 70%;
     margin: 0 auto;
     height: 2000px;
     
@@ -91,14 +94,21 @@ section.container-B{
     background-color: blue;
 }
 
-div.container-column{
-    width: calc((100% / 3) - 2.5em);
+.container{
     border: 1px solid rgb(166, 166, 168);
+}
+
+div.container-column{
+    width: calc((100% / 3) - 38px);;
     padding-bottom: 250px;/* temporaneo */
 }
 
+div.container-row{
+    width: 100%;
+}
+
 .gutter-mid{
-    margin: 0em 3.5em;
+    margin: 0px 57px;;
 }
 
 div.container-column ul{
@@ -114,6 +124,10 @@ div.container-column ul li,
 div.container-column li:before{
     content: "\2713";
     color: rgb(1, 92, 255);
+}
+
+.crd-bottom{
+    margin-top:  3em;
 }
 
 div.block-center h6{
@@ -186,6 +200,14 @@ div.name-sub *{
 .btn-blue-large{
     padding: 0.8em 1.9em;
     display: block;
+}
+
+.btn-W{
+    width: 30%;
+}
+
+.L-height{
+    line-height: 3em;
 }
 
 .jumbotron{
