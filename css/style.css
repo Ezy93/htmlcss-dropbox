@@ -28,7 +28,8 @@ nav>*{
     line-height: 80px;
 }
 
-nav ul li a{
+nav ul li a,
+#btn-white{
     color:black;
 }
 
@@ -40,7 +41,8 @@ nav ul li a{
 
 nav ul li a,
 nav > a,
-div a.btn{
+div a.btn,
+#btn-white{
     text-decoration: none;
 }
 
@@ -73,7 +75,6 @@ div.jumbotron h1{
 
 section.container-S{
     margin: 0 auto;
-    height: 2000px;
     
 }
 
@@ -106,6 +107,10 @@ div.container-row{
 
 .gutter-mid{
     margin: 0px 57px;;
+}
+
+.gutter-top{
+    padding-top: 6%;
 }
 
 div.container-column ul{
@@ -161,6 +166,11 @@ div.name-sub *{
     font-size: .8em;
 }
 
+.line-paragraph{
+    margin: 6% 0%;
+}
+
+
 .fa-arrow-down{
     font-size: 3em;
     margin-top: 1em;
@@ -176,6 +186,10 @@ div.name-sub *{
 
 .perc-larghezza-R{
     width: 70% ;
+}
+
+.width-small{
+    width: 30%;
 }
 
 .nav-container{
@@ -199,9 +213,6 @@ div.name-sub *{
     display: block;
 }
 
-.btn-W{
-    width: 30%;
-}
 
 .L-height{
     line-height: 3em;
@@ -224,6 +235,7 @@ div.name-sub *{
     width: 39%;
     margin-right: 17px;
     margin-top: 49px;
+    line-height: 1.8em;
 }
 
 .float-left{
@@ -250,4 +262,9 @@ div.name-sub *{
 
 #annuale{
     margin-left: 2em;
+}
+
+#btn-white{
+    padding: 0.5em 1em;
+    border: 2px solid;
 }
