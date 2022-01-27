@@ -57,14 +57,11 @@ div.col-right{
     transform: scale(0.9);
 }
 
+
 div.col-left{
-    width: 30%;
     margin-top: 25px;
 }
 
-.width-M{
-    width: 70%;
-}
 
 div.col-left div.btn-blue{
     margin: 1em 0;
