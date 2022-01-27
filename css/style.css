@@ -60,8 +60,9 @@ div.col-right{
 }
 
 
-div.col-left{
-    margin-top: 25px;
+div.col-left,
+.p-top-margin{
+    margin-top: 25px; /* !!!!!!!!!!!! */
 }
 
 
@@ -87,7 +88,6 @@ section.container-S form{
 }
 
 section.container-B{
-    width: 100%;
     height: 500px;
     background-color: blue;
 }
@@ -97,12 +97,47 @@ section.container-B{
 }
 
 div.container-column{
-    width: calc((100% / 3) - 38px);;
     padding-bottom: 250px;/* temporaneo */
 }
 
-div.container-row{
+.card-column{
+    width: calc((100% / 3) - 38px);
+}
+
+div.container-row,
+section.container-B,
+.img-business{
     width: 100%;
+}
+
+.img-business{
+    height: 261px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img-business-tools{
+    background-image: url(../img/business-feature-switching-tools.png);
+}
+
+.img-business-coordinate{
+    background-image: url(../img/business-feature-coordinate-it.png);
+}
+
+.img-business-multi-device{
+    background-image: url(../img/business-feature-multi-device.png);
+}
+/* immagini da modificare e nomi classe */
+.img-business-tools{
+    background-image: url(../img/business-feature-switching-tools.png);
+}
+
+.img-business-tools{
+    background-image: url(../img/business-feature-switching-tools.png);
+}
+
+.img-business-tools{
+    background-image: url(../img/business-feature-switching-tools.png);
 }
 
 .gutter-mid{
@@ -120,7 +155,7 @@ div.container-column ul{
 div.container-column ul,
 div.container-column ul li,
 .top{
-    margin-top: 2em;
+    margin-top: 2em; /* !!!!!!!!!!!!!!!!!! */
 }
 
 div.container-column li:before{
@@ -129,7 +164,7 @@ div.container-column li:before{
 }
 
 .crd-bottom{
-    margin-top:  3em;
+    margin-top:  3em; /* !!!!!!!!!!!!!!!!!!!!! */
 }
 
 div.block-center h6{
@@ -140,8 +175,9 @@ div.block-center h6{
     padding: 1.9em;
 }
 
-div.name-sub *{
-    margin-top: 1em
+div.name-sub *,
+.fa-arrow-down{
+    margin-top: 1em /* !!!!!!!!!!!!!!!!!!!!!!!!! */
 }
 
 .vertical-spacing{
@@ -173,7 +209,6 @@ div.name-sub *{
 
 .fa-arrow-down{
     font-size: 3em;
-    margin-top: 1em;
 }
 
 .padding{
