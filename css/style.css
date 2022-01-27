@@ -212,6 +212,20 @@ div.name-sub *{
     height: 763px;
 }
 
+.resize-img-partner{
+    position: relative;
+    padding: 44px;
+    right: 44px;
+    bottom: 33px;
+    width: calc(61% - 17px);
+}
+
+.resize-paragraph{
+    width: 39%;
+    margin-right: 17px;
+    margin-top: 49px;
+}
+
 .float-left{
     float: left;
 }
