@@ -62,7 +62,7 @@ div.col-right{
 
 div.col-left,
 .p-top-margin{
-    margin-top: 25px; /* !!!!!!!!!!!! */
+    margin-top: 25px; 
 }
 
 
@@ -97,7 +97,7 @@ section.container-B{
 }
 
 div.container-column{
-    padding-bottom: 250px;/* temporaneo */
+    padding-bottom: 250px;
 }
 
 .card-column{
@@ -127,17 +127,21 @@ section.container-B,
 .img-business-multi-device{
     background-image: url(../img/business-feature-multi-device.png);
 }
-/* immagini da modificare e nomi classe */
-.img-business-tools{
-    background-image: url(../img/business-feature-switching-tools.png);
+
+.img-business-integration{
+    background-image: url(../img/business-feature-integrations-it.png);
 }
 
-.img-business-tools{
-    background-image: url(../img/business-feature-switching-tools.png);
+.img-business-send-iles{
+    background-image: url(../img/business-feature-send-files-it.png);
 }
 
-.img-business-tools{
-    background-image: url(../img/business-feature-switching-tools.png);
+.img-business-secutiry{
+    background-image: url(../img/business-feature-security.png);
+}
+
+.row-bot-business{
+    margin-top: 7em;
 }
 
 .gutter-mid{
