@@ -102,7 +102,6 @@ section.container-S form{
 }
 
 section.container-B{
-    height: 500px;
     background-color: blue;
 }
 
@@ -300,24 +299,46 @@ div.name-sub *,
     width: 28%;
     /* temporaneo */
     background-color: green;
-    height: 100px;
+    height: 425.38px;
+}
+
+.square-svg img{
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+
 }
 
 .designit-banner{
     width: 44%;
-    padding: 4%;
+    height: 100%;
+    padding: 3%;
     background-color: rgb(245, 245, 245);
 }
 
 div.designit-banner>div{
     transform: scale(0.4);
-    right: 160px;
+    right: 172px;
     bottom: 56px;
 }
 
 .author-sign{
     top: 60px;
     padding-bottom: 15%;
+}
+
+.top-row-svg{
+    height: 425.38px;
+}
+
+.row-svg{
+    height: 50%;
+    width: 100%;
+}
+
+.little-square-svg{
+    width: 50%;
+    height: 100%;
 }
 
 div.padding-svg-title h1{
