@@ -102,7 +102,7 @@ section.container-S form{
 }
 
 section.container-B{
-    background-color: blue;
+    background-color: blue;/* da rimuovere a fine esercizio */
 }
 
 .container{
@@ -297,16 +297,14 @@ div.name-sub *,
 
 .square-svg{
     width: 28%;
-    /* temporaneo */
-    background-color: green;
     height: 425.38px;
 }
 
 .square-svg img{
     width: 100%;
     height: 100%;
-    padding: 10%;
-
+    filter: invert();
+    
 }
 
 .designit-banner{
@@ -339,6 +337,39 @@ div.designit-banner>div{
 .little-square-svg{
     width: 50%;
     height: 100%;
+    padding: 8%;
+}
+
+.bg-color-deisgnit{
+    background-color: rgb(162, 211, 155);
+}
+
+.bg-color-asu{
+    background-color: rgb(97, 8, 43);
+}
+
+.bg-color-uf{
+    background-color: rgb(0, 147, 206) ;
+}
+
+.bg-color-topps{
+    background-color: rgb(255, 28, 28) ;
+}
+
+.bg-color-bicycle{
+    background-color: rgb(213, 0, 31);
+}
+
+.bg-color-hearts{
+    background-color: rgb(180, 208, 231) ;
+}
+
+.bg-color-lonely{
+    background-color: rgb(13, 36, 129) ;
+}
+
+.bg-color-clear{
+    background-color: rgb(255, 216, 48);
 }
 
 div.padding-svg-title h1{
@@ -379,4 +410,8 @@ div.padding-svg-title div{
 #btn-white{
     padding: 0.5em 1em;
     border: 2px solid;
+}
+
+#florida{
+    padding: 40% 0%;
 }
