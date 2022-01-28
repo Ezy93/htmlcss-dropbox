@@ -100,9 +100,6 @@ section.container-S form{
     margin-bottom: 2em ;
 }
 
-section.container-B{
-    background-color: blue;/* da rimuovere a fine esercizio */
-}
 
 .container{
     border: 1px solid rgb(166, 166, 168);
@@ -272,6 +269,10 @@ div.name-sub *,
     background-color: white;
 }
 
+.btn-white-padding{
+    padding: 0.5em 1em;
+}
+
 
 .L-height{
     line-height: 3em;
@@ -426,10 +427,6 @@ div.padding-svg-title div{
 
 #annuale{
     margin-left: 2em;
-}
-
-.btn-white-padding{
-padding: 0.5em 1em;
 }
 
 #btn-white{
