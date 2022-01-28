@@ -52,7 +52,8 @@ nav ul li a{
 nav ul li a,
 nav > a,
 div a.btn,
-#btn-white{
+#btn-white,
+.no-deco{
     text-decoration: none;
 }
 
@@ -84,14 +85,12 @@ div.jumbotron h1{
     font-size: 4em;
 }
 
-section.container-S{
+section.container-S,
+.margin-auto{
     margin: 0 auto;
     
 }
 
-.margin-auto{
-    margin: 0 auto;
-}
 
 section.container-S > h1{
     font-size: 2.8em ;
@@ -270,6 +269,10 @@ div.name-sub *,
     display: block;
 }
 
+.btn-white-svg{
+    background-color: white;
+}
+
 
 .L-height{
     line-height: 3em;
@@ -372,14 +375,21 @@ div.designit-banner>div{
     background-color: rgb(255, 216, 48);
 }
 
-div.padding-svg-title h1{
-    width: 55%;
+
+.title-stile-svg{
+    width: 60%;
     font-size: 2.5em;
+}
+
+.padding-title-bot-svg{
+    padding: 8% 0%;
 }
 
 div.padding-svg-title div{
     margin: 19px 0;
 }
+
+
 
 .float-left{
     float: left;
@@ -407,8 +417,11 @@ div.padding-svg-title div{
     margin-left: 2em;
 }
 
+.btn-white-padding{
+padding: 0.5em 1em;
+}
+
 #btn-white{
-    padding: 0.5em 1em;
     border: 2px solid;
 }
 
