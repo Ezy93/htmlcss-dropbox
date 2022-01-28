@@ -251,7 +251,6 @@ div.name-sub *,
 .nav-container{
     height: 80px;
     width: 98vw;
-    margin: 0 auto;
     min-width: 1100px;
 }
 
@@ -387,6 +386,18 @@ div.designit-banner>div{
 
 div.padding-svg-title div{
     margin: 19px 0;
+}
+
+.line-height-faq{
+    line-height: 5.5em;
+}
+
+.fas{
+    padding-top: 2.1em;
+}
+
+.horizontal-rule{
+    border-bottom: 2px solid rgb(220, 220, 222);
 }
 
 
