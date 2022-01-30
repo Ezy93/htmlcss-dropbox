@@ -106,8 +106,12 @@ section.container-s form{
     border: 1px solid rgb(166, 166, 168);
 }
 
-div.container-column{
+.card-mid-right{
     padding-bottom: 250px;
+}
+
+.card-left-padding{
+    padding-bottom: 304px;
 }
 
 .card-column{
@@ -398,10 +402,6 @@ div.padding-svg-title div{
 
 .line-height-faq{
     line-height: 5.5em;
-}
-
-.fas{
-    padding-top: 2.1em;
 }
 
 .horizontal-rule{
