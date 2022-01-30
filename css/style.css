@@ -118,6 +118,11 @@ section.container-s form{
     width: calc((100% / 3) - 38px);
 }
 
+.or-style-card{
+    border-bottom: 1px solid rgb(232, 232, 234);
+    padding-bottom: 27px;
+}
+
 div.container-row,
 section.container-b,
 .img-business,
@@ -417,7 +422,7 @@ div.inline.relative{
 }
 
 .list-margin-bot{
-    margin: 14% 4% 9%;
+    margin: 8% 4% 9%;;
 }
 
 .txt-white{
